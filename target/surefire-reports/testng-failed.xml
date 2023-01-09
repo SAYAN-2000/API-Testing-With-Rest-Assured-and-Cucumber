@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="Basic_RestAssuredTests.GETRequestTest">
+        <methods>
+          <include name="practice_GET_Request"/>
+          <include name="CheckforChartName"/>
+        </methods>
+      </class> <!-- Basic_RestAssuredTests.GETRequestTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

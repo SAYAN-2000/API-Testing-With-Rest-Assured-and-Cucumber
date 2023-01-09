@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="2" name="TestSuite" time="8.776" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\hp\eclipse-workspace\API_Testing_Project"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\hp\eclipse-workspace\API_Testing_Project"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\hp\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.2\bin;C:\MinGW\bin;C:\Program Files\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Users\hp\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\hp\AppData\Local\Programs\Python\Python310\;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;C:\Users\hp\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.8.5-bin\apache-maven-3.8.5/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.8.5-bin\apache-maven-3.8.5\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\hp"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="hp"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.8.5-bin\apache-maven-3.8.5\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher verify"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.8.5-bin\apache-maven-3.8.5"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Basic_RestAssuredTests.GETRequestTest" name="CheckforChartName" time="3.81">
+    <failure message="1 expectation failed.
+XML path chartName doesn&apos;t match.
+Expected: Bitcoin
+  Actual: &lt;404 Not Foundcode{word-wrap:break-word;color:black}.comment,.doc_comment,.ml_comment{color:orange}.variable{color:blueviolet;font-style:italic}.const,.constant_encapsed_string,.class_c,.dir,.file,.func_c,.halt_compiler,.line,.method_c,.ns_c,.ns_separator,.lnumber,.dnumber{color:crimson}.string,.and_equal,.boolean_and,.boolean_or,.concat_equal,.dec,.div_equal,.inc,.is_equal,.is_greater_or_equal,.is_identical,.is_not_equal,.is_not_identical,.is_smaller_or_equal,.logical_and,.logical_or,.logical_xor,.minus_equal,.mod_equal,.mul_equal,.or_equal,.plus_equal,.sl,.sl_equal,.sr,.sr_equal,.xor_equal,.start_heredoc,.end_heredoc,.object_operator,.paamayim_nekudotayim{color:black}.abstract,.array,.array_cast,.as,.break,.case,.catch,.class,.clone,.continue,.declare,.default,.do,.echo,.else,.elseif,.empty.enddeclare,.endfor,.endforach,.endif,.endswitch,.endwhile,.eval,.exit,.extends,.final,.for,.foreach,.function,.global,.goto,.if,.implements,.include,.include_once,.instanceof,.interface,.isset,.list,.namespace,.new,.print,.private,.public,.protected,.require,.require_once,.return,.static,.switch,.throw,.try,.unset,.use,.var,.while{color:royalblue}.open_tag,.open_tag_with_echo,.close_tag{color:orange}.ini_section{color:black}.ini_key{color:royalblue}.ini_value{color:crimson}.xml_tag{color:dodgerblue}.xml_attr{color:blueviolet}.xml_data{color:red}.section{color:black}.directive{color:blue}.data{color:dimgray}
+Not FoundHTTP 404 (GET /v1/bpi/currentprice.json/products/1)&gt;
+" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+XML path chartName doesn&apos;t match.
+Expected: Bitcoin
+  Actual: &lt;404 Not Foundcode{word-wrap:break-word;color:black}.comment,.doc_comment,.ml_comment{color:orange}.variable{color:blueviolet;font-style:italic}.const,.constant_encapsed_string,.class_c,.dir,.file,.func_c,.halt_compiler,.line,.method_c,.ns_c,.ns_separator,.lnumber,.dnumber{color:crimson}.string,.and_equal,.boolean_and,.boolean_or,.concat_equal,.dec,.div_equal,.inc,.is_equal,.is_greater_or_equal,.is_identical,.is_not_equal,.is_not_identical,.is_smaller_or_equal,.logical_and,.logical_or,.logical_xor,.minus_equal,.mod_equal,.mul_equal,.or_equal,.plus_equal,.sl,.sl_equal,.sr,.sr_equal,.xor_equal,.start_heredoc,.end_heredoc,.object_operator,.paamayim_nekudotayim{color:black}.abstract,.array,.array_cast,.as,.break,.case,.catch,.class,.clone,.continue,.declare,.default,.do,.echo,.else,.elseif,.empty.enddeclare,.endfor,.endforach,.endif,.endswitch,.endwhile,.eval,.exit,.extends,.final,.for,.foreach,.function,.global,.goto,.if,.implements,.include,.include_once,.instanceof,.interface,.isset,.list,.namespace,.new,.print,.private,.public,.protected,.require,.require_once,.return,.static,.switch,.throw,.try,.unset,.use,.var,.while{color:royalblue}.open_tag,.open_tag_with_echo,.close_tag{color:orange}.ini_section{color:black}.ini_key{color:royalblue}.ini_value{color:crimson}.xml_tag{color:dodgerblue}.xml_attr{color:blueviolet}.xml_data{color:red}.section{color:black}.directive{color:blue}.data{color:dimgray}
+Not FoundHTTP 404 (GET /v1/bpi/currentprice.json/products/1)&gt;
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:270)
+	at io.restassured.specification.ResponseSpecification$body$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:212)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:117)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at Basic_RestAssuredTests.GETRequestTest.CheckforChartName(GETRequestTest.java:24)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@30c7da1e
+</system-out>
+    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+</system-err>
+  </testcase>
+  <testcase classname="Basic_RestAssuredTests.GETRequestTest" name="practice_GET_Request" time="0.595">
+    <failure message="1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at Basic_RestAssuredTests.GETRequestTest.practice_GET_Request(GETRequestTest.java:15)
+</failure>
+    <system-out>Request method:	GET
+Request URI:	https://api.coindesk.com/v1/bpi/currentprice.json/products/1
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Sun, 08 Jan 2023 22:51:56 GMT
+Content-Encoding: gzip
+Vary: Accept-Encoding
+X-Cache: Error from cloudfront
+Via: 1.1 d8f5561c3a6502258d14271c7d32bde8.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: CCU50-P2
+X-Amz-Cf-Id: sDjtN-6rK3ee0eSzIFotgclSAoFLQ7uJPXc3-b2fad7gKBauK4REig==
+Age: 3
+
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;404 Not Found&lt;/title&gt;
+    &lt;style&gt;code{word-wrap:break-word;color:black}.comment,.doc_comment,.ml_comment{color:orange}.variable{color:blueviolet;font-style:italic}.const,.constant_encapsed_string,.class_c,.dir,.file,.func_c,.halt_compiler,.line,.method_c,.ns_c,.ns_separator,.lnumber,.dnumber{color:crimson}.string,.and_equal,.boolean_and,.boolean_or,.concat_equal,.dec,.div_equal,.inc,.is_equal,.is_greater_or_equal,.is_identical,.is_not_equal,.is_not_identical,.is_smaller_or_equal,.logical_and,.logical_or,.logical_xor,.minus_equal,.mod_equal,.mul_equal,.or_equal,.plus_equal,.sl,.sl_equal,.sr,.sr_equal,.xor_equal,.start_heredoc,.end_heredoc,.object_operator,.paamayim_nekudotayim{color:black}.abstract,.array,.array_cast,.as,.break,.case,.catch,.class,.clone,.continue,.declare,.default,.do,.echo,.else,.elseif,.empty.enddeclare,.endfor,.endforach,.endif,.endswitch,.endwhile,.eval,.exit,.extends,.final,.for,.foreach,.function,.global,.goto,.if,.implements,.include,.include_once,.instanceof,.interface,.isset,.list,.namespace,.new,.print,.private,.public,.protected,.require,.require_once,.return,.static,.switch,.throw,.try,.unset,.use,.var,.while{color:royalblue}.open_tag,.open_tag_with_echo,.close_tag{color:orange}.ini_section{color:black}.ini_key{color:royalblue}.ini_value{color:crimson}.xml_tag{color:dodgerblue}.xml_attr{color:blueviolet}.xml_data{color:red}.section{color:black}.directive{color:blue}.data{color:dimgray}
+&lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Not Found&lt;/h1&gt;
+    &lt;p&gt;HTTP 404 (GET /v1/bpi/currentprice.json/products/1)&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</system-out>
+  </testcase>
+  <testcase classname="Basic_RestAssuredTests.POSTRequestTest" name="POSTRequestCheck" time="2.672"/>
+  <testcase classname="Basic_RestAssuredTests.PUTRequestTest" name="PUTrequestCheck" time="1.699"/>
+</testsuite>

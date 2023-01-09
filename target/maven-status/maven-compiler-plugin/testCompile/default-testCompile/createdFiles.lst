@@ -1,0 +1,5 @@
+Basic_RestAssuredTests\GETRequestTest.class
+Basic_RestAssuredTests\POSTRequestTest.class
+stepDefinitions\GETRequestValidation.class
+Basic_RestAssuredTests\PUTRequestTest.class
+TestRunner\APITestRunner.class
