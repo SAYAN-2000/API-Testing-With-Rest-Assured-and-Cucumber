@@ -14,32 +14,6 @@ For Demo purpose all the test cases are done on [Coindesk](https://api.coindesk.
 - [Cucumber](https://github.com/cucumber) and [TestNG](https://testng.org/doc/)should be Installed
 -   Clone the files from Git repository either as zip file OR using  [Git](https://phoenixnap.com/kb/how-to-install-git-windows).
 
-## Folder Structure
-
- - src
-	 - main
-		 - java
-			 - DynamicPayload
-				 -  Payload1.java
-			 - Utilities
-				 - DateAndTime.java
-				 - FrameWorkConstants.java
-	- test
-		-   java
-			- Basic_RestAssuredTests
-				-  GETRequestTest.java
-				- PATCHandDELETERequestTest.java
-				- POSTRequestTest.java
-				- PUTRequestTest
-			-   Features
-				- FileUpload.feature
-				- Getrequest.feature
-			- stepDefinitions
-				- FileUpload.java
-				- GETRequestValidation 
-			- TestRunner
-				- APITestRunner.java
-- pom.xml  
 
 ## Running Tests
 Navigate to the [APITestRunner.java](https://github.com/SAYAN-2000/API-Testing-With-Rest-Assured-and-Cucumber/blob/main/src/test/java/TestRunner/APITestRunner.java) file under  [src](https://github.com/SAYAN-2000/API-Testing-With-Rest-Assured-and-Cucumber/tree/main/src)/[test](https://github.com/SAYAN-2000/API-Testing-With-Rest-Assured-and-Cucumber/tree/main/src/test)/[java](https://github.com/SAYAN-2000/API-Testing-With-Rest-Assured-and-Cucumber/tree/main/src/test/java)/[TestRunner](https://github.com/SAYAN-2000/API-Testing-With-Rest-Assured-and-Cucumber/tree/main/src/test/java/TestRunner) select your desired feature file and run as Junit Test.
